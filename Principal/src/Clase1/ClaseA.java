@@ -8,6 +8,7 @@ package Clase1;
 /**
  * version 1.0
  * @author cass4
+ * 25/02/2018
  */
 public class ClaseA {
     public int entero = 5;

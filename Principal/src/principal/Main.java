@@ -5,13 +5,13 @@
  */
 package principal;
 import Clase1.ClaseA;
-
+import Clase2.ClaseB;
 /**
- * 
+ * version 1.0
  * @author cass4
+ * 25/02/2018
  */
 public class Main {
-
     /**
      * @param args the command line arguments
      */
@@ -91,7 +91,80 @@ public class Main {
         System.out.println("-------------------------");
         System.out.println();
         System.out.println();
-        
+        System.out.println("        CLASE 2");
+        //objetos de la Clase2
+        ClaseB clase2Objeto1 = new ClaseB();
+        ClaseB clase2Objeto2 = new ClaseB();
+        ClaseB clase2Objeto3 = new ClaseB();
+        //objeto1 de la ClaseB
+        System.out.println("-------------------------");
+        System.out.println("OBJETO 1");
+        System.out.println("toString: "+clase2Objeto1.toString());
+        System.out.println("ENTERO INICIAL:   "+clase2Objeto1.retornarEntero());
+        System.out.println("CADENA INICIAL:   "+clase2Objeto1.retornarCadena());
+        System.out.print("DOBOL1 INICIAL:   ");clase2Objeto1.imprimirDobol1();
+        System.out.println("FLOTANTE INICIAL: "+clase2Objeto1.retornarFlotante());
+        System.out.println("DOBOL2 INICIAL:   "+clase2Objeto1.retornarDobol2());
+        clase2Objeto1.entero = 30;
+        clase2Objeto1.cadena = "CADENA 2 OBJETO 1";
+        clase2Objeto1.dobol1 = 2.21;
+        clase2Objeto1.flotante = 21.2F;
+        clase2Objeto1.dobol2 = 31.4;
+        System.out.println();
+        System.out.println("ENTERO MODIFICADO:   "+clase2Objeto1.retornarEntero());
+        System.out.println("CADENA MODIFICADA:   "+clase2Objeto1.retornarCadena());
+        System.out.print("DOBOL1 MODIFICADO:   ");clase2Objeto1.imprimirDobol1();
+        System.out.println("FLOTANTE MODIFICADO: "+clase2Objeto1.retornarFlotante());
+        System.out.println("DOBOL2 MODIFICADO:   "+clase2Objeto1.retornarDobol2());
+        System.out.println("-------------------------");
+        System.out.println();
+        System.out.println();
+        //objeto2 de la ClaseB
+        System.out.println("-------------------------");
+        System.out.println("OBJETO 2");
+        System.out.println("toString: "+clase2Objeto2.toString());
+        System.out.println("ENTERO INICIAL:   "+clase2Objeto2.retornarEntero());
+        System.out.println("CADENA INICIAL:   "+clase2Objeto2.retornarCadena());
+        System.out.print("DOBOL1 INICIAL:   ");clase2Objeto2.imprimirDobol1();
+        System.out.println("FLOTANTE INICIAL: "+clase2Objeto2.retornarFlotante());
+        System.out.println("DOBOL2 INICIAL:   "+clase2Objeto2.retornarDobol2());
+        clase2Objeto2.entero = 150;
+        clase2Objeto2.cadena = "CADENA 2 OBJETO 2";
+        clase2Objeto2.dobol1 = 1.345;
+        clase2Objeto2.flotante = 2.43F;
+        clase2Objeto2.dobol2 = 3.55;
+        System.out.println();
+        System.out.println("ENTERO MODIFICADO:   "+clase2Objeto2.retornarEntero());
+        System.out.println("CADENA MODIFICADA:   "+clase2Objeto2.retornarCadena());
+        System.out.print("DOBOL1 MODIFICADO:   ");clase2Objeto2.imprimirDobol1();
+        System.out.println("FLOTANTE MODIFICADO: "+clase2Objeto2.retornarFlotante());
+        System.out.println("DOBOL2 MODIFICADO:   "+clase2Objeto2.retornarDobol2());
+        System.out.println("-------------------------");
+        System.out.println();
+        System.out.println();
+        //objeto3 de la ClaseB
+        System.out.println("-------------------------");
+        System.out.println("OBJETO 3");
+        System.out.println("toString: "+clase2Objeto3.toString());
+        System.out.println("ENTERO INICIAL:   "+clase2Objeto3.retornarEntero());
+        System.out.println("CADENA INICIAL:   "+clase2Objeto3.retornarCadena());
+        System.out.print("DOBOL1 INICIAL:   ");clase2Objeto3.imprimirDobol1();
+        System.out.println("FLOTANTE INICIAL: "+clase2Objeto3.retornarFlotante());
+        System.out.println("DOBOL2 INICIAL:   "+clase2Objeto3.retornarDobol2());
+        clase2Objeto3.entero = 208;
+        clase2Objeto3.cadena = "CADENA 2 OBJETO 3";
+        clase2Objeto3.dobol1 = 1.44;
+        clase2Objeto3.flotante = 2.57F;
+        clase2Objeto3.dobol2 = 3.66;
+        System.out.println();
+        System.out.println("ENTERO MODIFICADO:   "+clase2Objeto3.retornarEntero());
+        System.out.println("CADENA MODIFICADA:   "+clase2Objeto3.retornarCadena());
+        System.out.print("DOBOL1 MODIFICADO:   ");clase2Objeto3.imprimirDobol1();
+        System.out.println("FLOTANTE MODIFICADO: "+clase2Objeto3.retornarFlotante());
+        System.out.println("DOBOL2 MODIFICADO:   "+clase2Objeto3.retornarDobol2());
+        System.out.println("-------------------------");
+        System.out.println();
+        System.out.println();
     }
     
 }
